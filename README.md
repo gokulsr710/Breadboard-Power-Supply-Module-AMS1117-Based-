@@ -7,13 +7,18 @@ The AMS1117 regulates the input voltage down to a stable 5V output.
 Capacitors are added:
 
 1)At the input → to smooth supply variations
+
 2)At the output → to stabilize the regulator
+
 3)0.1µF capacitors → for high-frequency noise filtering
 Without proper capacitors, the output voltage may drop (observed ~4.6–4.7V under load).
 
 Limitations
 
 1)Not efficient for high current applications
+
 2)Generates heat at higher loads
+
 3)Not suitable for long-term battery operation
+
 4)Requires proper input-output voltage difference (dropout voltage consideration)
